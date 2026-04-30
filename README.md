@@ -1,28 +1,47 @@
-### Hi, I'm Acefied 👋
+### Jungkyu Song (Acefied)
 
-**Web3 Security Researcher** focused on smart contract auditing and DeFi protocol security.
+Independent Web3 security researcher based in Seoul. I break smart contracts so others don't have to.
 
-#### What I do
+I focus on EVM and Solana protocol security — auditing DeFi protocols, researching novel attack vectors, and building tools to automate vulnerability discovery. Previously did security work at a major blockchain security firm; now independent.
 
-- 🔍 Smart contract security audits (Solidity / Vyper / Rust)
-- 🛡️ DeFi protocol vulnerability research — AMM, lending, bridge, staking
-- ⛓️ EVM & Solana runtime analysis
-- 🧰 Security tooling — static analysis, fuzzing, formal verification
-- 📝 Responsible disclosure & bug bounty (Immunefi, Code4rena, Sherlock)
+#### Current work
 
-#### Focus areas
+- Smart contract auditing for DeFi protocols (lending, DEX, vaults, bridges)
+- MEV research — sandwich detection, OFA analysis, private mempool security
+- Cross-chain bridge security — message verification, validator trust assumptions
+- Fuzzing infrastructure — Foundry invariant tests + Echidna harnesses for DeFi primitives
+- Bug bounties on Immunefi & Code4rena
 
-| Domain | Scope |
-|--------|-------|
-| **DeFi** | AMM, lending/borrowing, yield aggregators, liquid staking |
-| **Cross-chain** | Bridge security, message passing, relay verification |
-| **MEV** | Sandwich detection, frontrun protection, OFA |
-| **Wallet** | Key management, MPC, account abstraction (ERC-4337) |
+#### Security track record
 
-#### Languages & tools
+| Year | Protocol type | Severity | Status |
+|------|--------------|----------|--------|
+| 2025 | Yield vault | Critical — share inflation | Fixed |
+| 2025 | Cross-chain swap | Critical — replay attack | Fixed |
+| 2025 | Lending protocol | High — oracle manipulation | Fixed |
+| 2024 | Liquid staking | High — withdrawal credential | Fixed |
+| 2024 | AMM | Medium — fee rounding | Acknowledged |
 
-`Solidity` `Rust` `Python` `Foundry` `Hardhat` `Slither` `Mythril` `Echidna` `Anchor`
+#### CTF
 
-#### Contact
+- Paradigm CTF 2023 — top 30
+- Blazctf 2023 — participant
+- Ethernaut & Damn Vulnerable DeFi — completed all challenges
+
+#### Tech
+
+```
+Languages    Solidity · Rust · Python · TypeScript
+Frameworks   Foundry · Hardhat · Anchor
+Security     Slither · Mythril · Echidna · Medusa · Certora
+Infra        EVM internals · Solana runtime · TheGraph · Tenderly
+```
+
+#### Reach me
 
 - Twitter/X: [@acefied_sec](https://twitter.com/acefied_sec)
+- Immunefi: [acefied](https://immunefi.com)
+
+---
+
+*"The best audit is the one where you find nothing — because the protocol was built right from the start."*
